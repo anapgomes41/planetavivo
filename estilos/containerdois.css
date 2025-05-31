@@ -1,0 +1,34 @@
+.containerdois__titulo {
+  font-size: 2.2rem;    
+  font-weight: 600;
+  margin: 0.1rem;       
+}
+
+.containerdois__texto {
+  margin-top: 0.3rem;  
+  font-size: 1.4rem;   
+}
+
+/* Telas pequenas (até 480px) */
+@media (max-width: 480px) { 
+  .containerdois__titulo {
+    font-size: 1.4rem;
+    margin: 0.1rem;
+  }
+  .containerdois__texto {
+    font-size: 1.1rem;  
+    margin-top: 0.2rem;
+  }
+}
+
+/* Telas médias (481px a 768px) */
+@media (min-width: 481px) and (max-width:768px) {
+  .containerdois__titulo {
+    font-size: 1.8rem;  
+    margin: 0.1rem;
+  }
+  .containerdois__texto {
+    font-size: 1.3rem;  
+    margin-top: 0.3rem;
+  }
+}

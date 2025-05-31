@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+@import url('estilos/header.css');
+@import url('estilos/containerdois.css');
+@import url('estilos/destaques.css');
+@import url('estilos/calculadora.css');
+@import url('estilos/rodape.css');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --cor-fundo-principal: #1c4d45;         
+  --cor-botoes: #d6f2b2;                  
+  --cor-texto-principal: #f1f7e9;         
+  --cor-fundo-destaques: #eaf5de;         
+  --cor-texto-secundario: #2b2f2e;        
+  --verde-claro: #70AD47;
+  --fonte-principal:'Merriweather', serif;
+}
+
+body {
+  font-family: var(--fonte-principal);
+  background-color: var(--cor-fundo-destaques);
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.containerdois {
+  background-image: url('img/floresta-fundo-tela.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 12.5rem;       
+  color: white;
+  padding: 2.1875rem;        
+  text-shadow: 0.0625rem 0.0625rem 0.3125rem rgba(0,0,0,0.7); 
+  text-align: center;
+}
+
+
+

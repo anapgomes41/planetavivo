@@ -1,0 +1,118 @@
+.calculadora__titulo {
+  font-size: 2.1rem; 
+  text-align: center;
+  font-weight: 700;
+  color: var(--cor-texto-secundario);
+  margin: 1.3rem 0; 
+}
+
+.calculadora__titulo:hover {
+  color: var(--verde-claro);
+  transition: color 0.4s ease;
+  cursor: default;
+}
+
+.calculadora__texto {
+  font-size: 1.3rem; 
+  font-weight: 500;
+  color: #2C5F2D;
+}
+
+.calculadora__formulario {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  max-width: 25rem; 
+  margin: 0.6rem auto; 
+}
+
+.calculadora__formulario label {
+  display: flex;
+  flex-direction: column;
+}
+
+.calculadora__formulario input,
+.calculadora__formulario select {
+  margin: 0.2rem; 
+  padding: 0.6rem 0.8rem; 
+  border: 0.1rem solid #70AD47;
+  border-radius: 0.5rem; 
+  font-size: 1rem; 
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.calculadora__formulario input:focus,
+.calculadora__formulario select:focus {
+  border-color: #4A7C36;
+}
+
+.botoes {
+  display: flex;
+  gap: 1rem;          /* espaço entre os botões */
+  justify-content: center; 
+  margin-top: 1rem;    /* espaço acima dos botões */
+}
+
+.calculadora__formulario button {
+  background-color: #70AD47;
+  color: white;
+  font-weight: 700;
+  font-size: 1.1rem; 
+  border: none;
+  border-radius: 0.6rem; 
+  padding: 0.9rem 1.8rem; 
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  align-self: center;
+  max-width: 12.5rem; 
+  margin-top: 0.9rem; 
+}
+
+.calculadora__formulario button:hover {
+  background-color: #4A7C36;
+  transform: scale(1.05);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.calculadora__resultado p {
+  transition: color 0.4s ease-in-out;
+  text-align: center;
+  margin: 1rem;
+}
+
+
+@media (max-width: 480px) {
+  .calculadora__titulo {
+    font-size: 1.7rem;
+  }
+
+  .calculadora__texto {
+    font-size: 1rem;
+  }
+
+  .calculadora__formulario {
+    padding: 0 1rem;
+  }
+
+  .calculadora__formulario button {
+    font-size: 1rem;
+    padding: 0.8rem 1.5rem;
+  }
+}
+
+
+@media (min-width: 481px) and (max-width:768px) {
+  .calculadora__titulo {
+    font-size: 1.8rem;
+  }
+
+  .calculadora__texto {
+    font-size: 1.2rem;
+  }
+
+  .calculadora__formulario button {
+    font-size: 1.05rem;
+    padding: 0.85rem 1.6rem;
+  }
+}

@@ -1,0 +1,24 @@
+.container {
+    padding: 1.25rem;       
+    text-align: center;
+    background-color: var(--cor-fundo-principal);
+    color: var(--cor-texto-principal);
+    font-size: 1.5rem;   
+    font-weight: 700;
+}
+
+/* Tela média (celular) */
+@media (max-width: 480px) { 
+  .container {
+    font-size: 1.1rem;     
+    padding: 0.9rem;    
+  }
+}
+
+/* Tela média (tablets) */
+@media (min-width: 481px) and (max-width:768px) { 
+  .container {
+    font-size: 1.3rem;     
+    padding: 1.1rem;    
+  }
+}
