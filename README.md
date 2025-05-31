@@ -43,4 +43,4 @@ Foi desenvolvido com atenção à acessibilidade, usabilidade e design responsiv
 
 1. Clone este repositório:  
    ```bash
-   git clone https://github.com/anapgomes41/planetavivo.git
+   git clone https://anapgomes41.github.io/planetavivo/
